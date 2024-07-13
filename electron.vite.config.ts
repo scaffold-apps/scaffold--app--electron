@@ -1,3 +1,4 @@
+import { lingui } from '@lingui/vite-plugin'
 import react from '@vitejs/plugin-react'
 import { defineConfig, externalizeDepsPlugin } from 'electron-vite'
 import { resolve } from 'path'
@@ -18,6 +19,6 @@ export default defineConfig({
         '@lib': resolve('src/renderer/src/lib')
       }
     },
-    plugins: [react()]
+    plugins: [react(), lingui()]
   }
 })

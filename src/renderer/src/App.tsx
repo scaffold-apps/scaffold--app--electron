@@ -3,7 +3,7 @@ function App(): JSX.Element {
 
   return (
     <>
-      <div className="text">
+      <div>
         Build an Electron app with <span className="react">React</span>
         &nbsp;and <span className="ts">TypeScript</span>
       </div>
